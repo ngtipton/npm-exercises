@@ -1,6 +1,3 @@
-"use strict";
+const sayHello = require('./say-hello');
 
-const sayHello = (name = 'World') => `Hello, ${name}!`;
-
-console.log(sayHello());
-//sayHello('codeup');
+console.log(sayHello);
